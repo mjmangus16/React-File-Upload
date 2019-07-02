@@ -3,11 +3,14 @@ import PropTypes from "prop-types";
 
 const Message = ({ msg }) => {
   return (
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <div
+      className="alert alert-warning alert-dismissible fade show"
+      role="alert"
+    >
       {msg}
       <button
         type="button"
-        class="close"
+        className="close"
         data-dismiss="alert"
         aria-label="Close"
       >
